@@ -11,6 +11,9 @@ void main() {
   num grade1 = 8; // Variavel armanezando um valor do tipo Num (Aceita números interios e Decimais)
   num grade2 = 8.5; // Variavel armanezando um valor do tipo Num (Aceita números interios e Decimais)
 
+  bool isAlive = true; // Variavel armanezando um valor do tipo Bool (Booleano - (True ou False))
+  bool darkMode = false;
+
   // Podemos omitir o tipo da variavel pela palavra reservada "var"
   var fullName = "Maykon Freitas"; // Usando o var, o tipo da variavel vai depender do seu valor
   var grade3 = 10; // Inferi o tipo Int
@@ -30,6 +33,8 @@ void main() {
   print(name);
   print(age);
   print(height);
+  print(isAlive);
+  print(darkMode);
   print(grade1);
   print(grade2);
   print(grade3);
